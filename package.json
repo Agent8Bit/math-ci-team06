@@ -1,0 +1,23 @@
+{
+  "name": "math-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "lint": "eslint src/",
+    "format:check": "prettier --check src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.1"
+  },
+  "dependencies": {
+    "@eslint/js": "^10.0.1",
+    "prettier": "^3.8.1",
+    "typescript-eslint": "^8.57.2"
+  }
+}
